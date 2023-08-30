@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo-name {
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff6600;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.login-button,
+.register-button {
+  margin-left: 15px;
+  padding: 8px 15px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: #ff8533;
+}
+/* Existing CSS styles */
+
+.nav-links li {
+  margin-right: 20px;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+
+
+.nav-links li:hover {
+  transform: translateY(-3px);
+}
+/* Existing CSS styles */
+
+.logo-name {
+  /* Existing styles */
+  transition: transform 0.3s;
+}
+
+.logo-name:hover {
+  transform: scale(1.1);
+}
+
+.nav-links li {
+  /* Existing styles */
+  position: relative;
+  transition: transform 0.3s;
+}
+
+
+
+.nav-links li:hover {
+  transform: translateY(-3px);
+}
+
+.auth-buttons a, .register-button {
+  /* Existing styles */
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.auth-buttons a:hover, .register-button:hover {
+  transform: scale(1.05);
+  background-color: #ff8533;
+}
